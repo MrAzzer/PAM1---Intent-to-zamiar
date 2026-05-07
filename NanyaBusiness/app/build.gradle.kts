@@ -61,6 +61,14 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    // Extended material icons (PhoneAndroid, Computer, etc.)
+    implementation("androidx.compose.material:material-icons-extended")
+    // SSH library (JSch) for SSH connections
+    implementation("com.jcraft:jsch:0.1.55")
+    // OkHttp for Tailscale API
+    implementation("com.squareup.okhttp3:okhttp:4.11.0")
+    // Encrypted SharedPreferences
+    implementation("androidx.security:security-crypto:1.1.0-alpha03")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
